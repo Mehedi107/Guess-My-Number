@@ -15,6 +15,7 @@ let score = 20;
 
 checkBtn.addEventListener('click', () => {
   const num = +inputNum.value;
+
   if (score > 0) {
     if (num === randNum) {
       message.textContent = `🎉 Correct Number...`;
